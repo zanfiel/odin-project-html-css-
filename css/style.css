@@ -2,29 +2,39 @@
     box-sizing: border-box;
     margin: 5px;
     padding: 1px;
-    background-image: linear-gradient(cyan, rgb(233, 6, 233));
-  }
+    font-weight: bold;
+    
+}
+
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2016/10/12/19/50/matrix-1735640__340.jpg");
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
 header {
-        background-color: rgb(148, 222, 245);
-        border: 8px groove rgb(0, 255, 34);
+        
+        
         margin: 2px;
         padding: 2px;
         
 }
 
 div > button {
-    background-color: rgb(8, 8, 8);
+    background-color: black;
     flex: 1;
     font-size: 40px;
     color: rgb(255, 255, 255);
 }
 
 .nav {
-    background-color: black;
     display: flex;
-    border: 12px groove rgb(125, 248, 1);
+    color: white;
     justify-content: space-between;
     font-weight: bold;
     font-size: 20px;    
@@ -33,7 +43,6 @@ div > button {
 .nav .box-left {
     display: flex;
     flex: 1;
-    background-color: rgb(185, 239, 247);
     justify-content: center;
 }
 
@@ -42,9 +51,9 @@ div > button {
     display: flex;
     flex: 1 0 50%;
     font-size: 5em;
-    background-color:rgb(120, 120, 241);
+    color: white;
     justify-content: center;
-    border: 20px groove rgb(44, 248, 3);
+    
     text-decoration: underline;
 
 
@@ -52,7 +61,7 @@ div > button {
 .nav .box-right {
     display: flex;
     flex: 1;
-    background-color: rgb(194, 237, 243);
+   
     justify-content: center;
 
 }
@@ -69,8 +78,7 @@ div > button {
     flex: 1;
     align-items: flex-start;
     height: 75%;
-    background-image: linear-gradient(cyan, blue, purple);
-    border: 15px groove rgb(3, 248, 85);
+  
     font-size: 3em;
     align-self: flex-start;
     color: white;
@@ -78,10 +86,11 @@ div > button {
 
 .main .section-middle {
     flex: 3;
+    color: white;
     align-items: center;
     font-size: 4em;
-    background-image: linear-gradient(red, yellow, green);
-    border: 20px groove rgb(3, 248, 36);
+   
+    
     font-weight: bold;
 }
 
@@ -89,8 +98,8 @@ div > button {
     flex: 1;
     align-items: flex-end;
     height: 75%;
-    background-image: linear-gradient(blue, red);
-    border: 15px groove rgb(3, 248, 105);
+    
+    
     font-size: 2em;
     align-self: flex-end;
     color: white;
@@ -104,7 +113,6 @@ div > button {
    justify-content: center;
     height: 200px;
     width: 200px;
-    border: 8px solid rgb(235, 5, 223);
 }
 
 
@@ -112,9 +120,9 @@ footer {
     display: flex;
     justify-content: center;
     color: white;
-    border: 12px groove white;
     font-size: 3em;
 }
 
 
 
+git@github.com:zanfiel/odin-project-html-css-.git
